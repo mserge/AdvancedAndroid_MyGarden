@@ -35,6 +35,15 @@
         android:layout_gravity="center"
         android:src="@drawable/grass" />
 
-    <!-- TODO (4) Add a new TextView in plant_widget and set it to show the plant ID -->
+    <!--  (4) Add a new TextView in plant_widget and set it to show the plant ID -->
+    <TextView
+        android:id="@+id/plant_widget_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:text="\?"
+        />
 
 </LinearLayout>
